@@ -1,0 +1,132 @@
+gender
+	female
+	male
+	genderless
+
+moveAilment
+	unknown
+	none
+	paralysis
+	sleep
+	freeze
+	burn
+	poison
+	confusion
+	infatuation
+	trap
+	nightmare
+	torment
+	disable
+	yawn
+	healBlock
+	noTypeImmunity
+	leechSeed
+	embargo
+	perishSong
+	ingrain
+
+moveCategory
+	damage
+	ailment
+	netGoodStats
+	heal
+	damageAilment
+	swagger
+	damageLower
+	damageRaise
+	damageHeal
+	ohko
+	wholeFieldEffect
+	fieldEffect
+	forceSwitch
+	unique
+
+moveDamageClass
+	status
+	physical
+	special
+
+moveTarget
+	specificMove
+	selectedPokemonMeFirst
+	ally
+	usersField
+	userOrAlly
+	opponentsField
+	user
+	randomOpponent
+	allOtherPokemon
+	selectedPokemon
+	allOpponents
+	entireField
+	userAndAllies
+	allPokemon
+
+pokedexColor
+	black
+	blue
+	brown
+	gray
+	green
+	pink
+	purple
+	red
+	white
+	yellow
+
+pokedexHabitat
+	cave
+	forest
+	grassland
+	mountain
+	rare
+	roughTerrain
+	sea
+	urban
+	watersEdge
+
+pokedexShape
+	ball
+	squiggle
+	fish
+	arms
+	blob
+	upright
+	legs
+	quadruped
+	wings
+	tentacles
+	heads
+	humanoid
+	bugWings
+	armor
+
+stat
+	hp
+	atk
+	def
+	spAtk
+	spDef
+	spe
+	accuracy
+	evasion
+
+type
+	normal
+	fighting
+	flying
+	poison
+	ground
+	rock
+	bug
+	ghost
+	steel
+	fire
+	water
+	grass
+	electric
+	psychic
+	ice
+	dragon
+	dark
+	fairy
