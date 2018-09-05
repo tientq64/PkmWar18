@@ -5,6 +5,8 @@
 			// "build.coffee",
 			// "index.js",
 			"*.sublime-project",
+			".editorconfig",
+			"README.md",
 		]
 	}],
 	"settings": {

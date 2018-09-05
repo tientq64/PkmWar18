@@ -7,5 +7,4 @@ game = new Phaser.Game
 
 game.state.add "boot", bootState, yes
 game.state.add "load", loadState
-game.state.add "menu", menuState
 game.state.add "play", playState

@@ -523,25 +523,16 @@
 			"file": "scripts/Pkm.coffee",
 			"settings":
 			{
-				"buffer_size": 1610,
+				"buffer_size": 1561,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "scripts/menu.coffee",
+			"file": "scripts/load.coffee",
 			"settings":
 			{
-				"buffer_size": 1299,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "scripts/play.coffee",
-			"settings":
-			{
-				"buffer_size": 163,
+				"buffer_size": 312,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -619,6 +610,14 @@
 		"selected_items":
 		[
 			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"theme",
+				"Colorsublime: Install Theme"
+			],
+			[
 				"js",
 				"Set Syntax: JavaScript"
 			],
@@ -633,10 +632,6 @@
 			[
 				"rename",
 				"Rename File"
-			],
-			[
-				"remove",
-				"Package Control: Remove Package"
 			],
 			[
 				"rena",
@@ -689,10 +684,6 @@
 			[
 				"list",
 				"Package Control: List Packages"
-			],
-			[
-				"theme",
-				"Colorsublime: Install Theme"
 			],
 			[
 				"c",
@@ -1013,25 +1004,50 @@
 		"/F/Nodejs/PkmWar",
 		"/F/Nodejs/PkmWar/assets",
 		"/F/Nodejs/PkmWar/components",
-		"/F/Nodejs/PkmWar/scripts"
+		"/F/Nodejs/PkmWar/scripts",
+		"/F/Nodejs/PkmWar/tmp"
 	],
 	"file_history":
 	[
-		"/F/Nodejs/PkmWar/components/Menu.vue",
-		"/F/Nodejs/PkmWar/scripts/load.coffee",
+		"/F/Nodejs/PkmWar/tmp/move/publish/move.json",
+		"/F/Nodejs/PkmWar/tmp/move/move.json",
+		"/F/Nodejs/PkmWar/tmp/publish/move.json",
+		"/E/home/user/src/cs/App.js",
+		"/F/Nodejs/PkmWar/scripts/game.coffee",
+		"/F/Nodejs/PkmWar/index.js",
+		"/C/Users/tiens/AppData/Roaming/Sublime Text 3/Packages/User/Syntax/coffee.sublime-syntax",
+		"/F/Nodejs/PkmWar/scripts/play.coffee",
+		"/F/Nodejs/PkmWar/components/Play.vue",
+		"/F/Nodejs/PkmWar/scripts/Pkm.coffee",
+		"/F/Nodejs/PkmWar/index.html",
+		"/F/Nodejs/PkmWar/tmp/PkmWar_changeD.coffee",
+		"/F/Nodejs/redstone -old/package.json",
+		"/F/Nodejs/Proton/package.json",
+		"/C/Users/tiens/AppData/Roaming/Sublime Text 3/Packages/User/CoffeeScript.sublime-settings",
+		"/F/Nodejs/PokeApi/index.html",
 		"/F/Nodejs/PkmWar/scripts/store.coffee",
-		"/F/Nodejs/PkmWar/scripts/boot.coffee",
 		"/F/Nodejs/PkmWar/build.coffee",
+		"/F/Nodejs/PkmWar/scripts/load.coffee",
+		"/F/Code/DrawPixel/index.coffee",
+		"/F/Code/DrawPixel/build.js",
+		"/F/Code/DrawPixel/Gulp.sublime-build",
+		"/F/Nodejs/PkmWar/components/Menu.vue",
+		"/F/Nodejs/PkmWar/Pkd.sublime-project",
+		"/F/Nodejs/PkmWar/scripts/menu.coffee",
+		"/F/Nodejs/PkmWar/scripts/boot.coffee",
+		"/F/Nodejs/PkmWar/models/Pkd.json",
+		"/F/Nodejs/PkmWar/.gitignore",
+		"/F/Nodejs/PkmWar/.editorconfig",
+		"/F/Nodejs/vue-webpack-test/.editorconfig",
+		"/F/Nodejs/vue-webpack-test/.gitignore",
+		"/F/Nodejs/PkmWar/.gitconfig",
+		"/F/Nodejs/PkmWar/README.md",
 		"/F/Nodejs/PkmWar/index.css",
 		"/F/Nodejs/PkmWar/libs/w3.css",
 		"/F/Nodejs/unimate/index.html",
 		"/F/Nodejs/PkmWar/libs/http-vue-loader.min.js",
-		"/F/Nodejs/PkmWar/scripts/game.coffee",
 		"/F/Nodejs/PkmWar/components/SelPkd.vue",
-		"/F/Nodejs/PkmWar/scripts/menu.coffee",
-		"/F/Nodejs/PkmWar/scripts/play.coffee",
 		"/F/Nodejs/PkmWar/scripts/components/App.vue",
-		"/F/Nodejs/PkmWar/index.html",
 		"/C/Users/tiens/Desktop/http-vue-loader.js",
 		"/F/Nodejs/PkmWar/scripts/components",
 		"/F/Nodejs/PkmWar/libs/coffee.min.js",
@@ -1042,14 +1058,9 @@
 		"/F/Nodejs/DoorsOS/scripts/initVue.coffee",
 		"/F/Nodejs/DoorsOS/public/index.coffee",
 		"/F/Nodejs/PkmWar/libs/uglify.js",
-		"/F/Code/DrawPixel/index.coffee",
-		"/C/Users/tiens/AppData/Roaming/Sublime Text 3/Packages/User/CoffeeScript.sublime-settings",
 		"/F/Code/DrawPixel/index.html",
 		"/F/Code/DrawPixel/index.pug",
 		"/F/Code/DrawPixel/index.js",
-		"/F/Code/DrawPixel/build.js",
-		"/F/Nodejs/PkmWar/Pkd.sublime-project",
-		"/F/Nodejs/PkmWar/index.js",
 		"/C/Users/tiens/Desktop/a/terser-harmony/uglifyjs.js",
 		"/F/Nodejs/aa/UglifyJS2/uglifyjs.js",
 		"/F/Nodejs/aa/UglifyJS2/tools/node.js",
@@ -1057,7 +1068,6 @@
 		"/F/Nodejs/PkmWar/libs/coffee.js",
 		"/F/Nodejs/PkmWar/libs/uglifyjs.js",
 		"/F/Nodejs/PkmWar/scripts/build.txt",
-		"/F/Nodejs/PkmWar/scripts/Pkm.coffee",
 		"/F/Nodejs/PkmWar/scripts/indexCopy.coffee",
 		"/F/Nodejs/PkmWar/scripts/index.coffee",
 		"/F/Nodejs/PkmWar/scripts/state.coffee",
@@ -1090,8 +1100,6 @@
 		"/C/Users/tiens/AppData/Roaming/Sublime Text 3/Packages/Better CoffeeScript/CoffeeScript.sublime-settings",
 		"/F/Nodejs/PkmWar/scripts/coffee.min.js",
 		"/F/Nodejs/PkmWar/scripts/PkdMenu.coffee",
-		"/F/Nodejs/PokeApi/index.html",
-		"/F/Nodejs/PkmWar/models/Pkd.json",
 		"/F/Nodejs/PkmWar/scripts/_fixImg.coffee",
 		"/F/Nodejs/PokeApi/index.coffee",
 		"/F/Nodejs/PkmWar/models/Move.json",
@@ -1128,23 +1136,7 @@
 		"/C/Users/tiens/AppData/Roaming/Sublime Text 3/Packages/User/Stylus.sublime-settings",
 		"/F/Nodejs/PkmWar/libs/phaser.min.js",
 		"/F/Code/PkmWar/index.html",
-		"/F/Code/PkmWar/assets/pokedex_icon.png",
-		"/F/Code/Pokemon-Arena-old/js/pokedex.js",
-		"/F/Nodejs/Taxonomy/public/index.styl",
-		"/F/Nodejs/Taxonomy/public/index.coffee",
-		"/F/Nodejs/Taxonomy/Gulp.sublime-build",
-		"/F/Nodejs/Taxonomy/public/libs/lodash.min.js",
-		"/F/Code/chrome-extensions/Wikipedia/script.coffee",
-		"/F/Nodejs/Taxonomy/buildTree.coffee",
-		"/F/Nodejs/Taxonomy/public/index.js",
-		"/F/Nodejs/Taxonomy/public/index.pug",
-		"/F/Nodejs/Taxonomy/public/index.html",
-		"/F/Nodejs/Taxonomy/public/data/tree.json",
-		"/F/Code/chrome-extensions/Wikipedia/script.js",
-		"/F/Nodejs/Taxonomy/package.json",
-		"/F/Nodejs/vue-emojipicker/src/App.vue",
-		"/F/Nodejs/vue-emojipicker/src/components/EmojiPicker.vue",
-		"/F/Nodejs/vue-emojipicker/public/index.html"
+		"/F/Code/PkmWar/assets/pokedex_icon.png"
 	],
 	"find":
 	{
@@ -1162,6 +1154,32 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"angle",
+			"|\n",
+			"USB",
+			"Math",
+			"!",
+			"\\!",
+			"!",
+			"walk",
+			"onInputUp",
+			"hidden",
+			"modulo",
+			"var Move,Pkd,Pkm,Stat,Type,bootState,game,loadState,pkms,playState,selPkd,modulo=(e,a)=>(+e%(a=+a)+a)%a;Type=null,Stat=null,Move=null,Pkd=null,game=null,selPkd=null,pkms=[],bootState={preload(){game.load.json(\"Type\",\"models/Type.json\"),game.load.json(\"Stat\",\"models/Stat.json\"),game.load.json(\"Move\",\"models/Move.json\"),game.load.json(\"Pkd\",\"models/Pkd.json\")},create(){var e,a;for(e in Type=game.cache.getJSON(\"Type\"),Stat=game.cache.getJSON(\"Stat\"),Move=game.cache.getJSON(\"Move\"),Pkd=game.cache.getJSON(\"Pkd\"))(a=Pkd[e]).moves=a.moves.map(e=>Move[e]);Vue.mixin({created(){var e;e=document.createElement(\"div\"),document.body.appendChild(e),this.$mount(e)},destroyed(){this.$el.remove()}}),game.physics.startSystem(Phaser.Physics.ARCADE),game.state.start(\"load\")}},loadState={preload(){var e,a,t;for(e in game.load.image(\"pkdIcon\",\"assets/pkdIcon.png\"),Pkd)t=(a=Pkd[e]).largeSprite?64:32,game.load.spritesheet(e,`assets/pkd/${a.no}.png`,t,t,8)},create(){game.state.start(\"play\")}},playState={create(){var e,a,t;selPkd=Pkd.bulbasaur,(e=game.add.graphics()).beginFill(16007990),e.drawRect(0,0,game.world.centerX,game.height),e.beginFill(38536),e.drawRect(game.world.centerX,0,game.world.centerX,game.height),e.beginFill(13421772),e.drawRect(game.world.centerX-10,0,20,game.height),e.drawCircle(game.world.centerX,game.world.centerY,192),e.beginFill(12303291),e.drawCircle(game.world.centerX,game.world.centerY,160),e.endFill(),e.inputEnabled=!0,e.events.onInputUp.add((e,a)=>{var t;t=new Pkm(game,selPkd.name,a.positionUp.x,a.positionUp.y,3,game.math.between(0,1)),pkms.add(t)}),(a=game.add.text(game.world.centerX,24,\"Pokémon War\",{font:\"bold 16pt fantasy\",fill:\"#fff\",stroke:\"#111\",strokeThickness:6})).anchor.set(.5),a.alpha=.2,game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR).onDown.add(()=>{t.$el.hidden=!t.$el.hidden}),pkms=game.add.group(),t=new Vue({template:\"<Play />\",components:[\"url:components/Play.vue\"]})},update(){game.physics.arcade.collide(pkms),pkms.sort(\"y\",Phaser.Group.SORT_ASCENDING)}},(game=new Phaser.Game({width:window.innerWidth,height:window.innerHeight,renderer:Phaser.AUTO,antialias:!1,scaleMode:Phaser.ScaleManager.SHOW_ALL})).state.add(\"boot\",bootState,!0),game.state.add(\"load\",loadState),game.state.add(\"play\",playState),Pkm=function(){class e extends Phaser.Sprite{constructor(e,a,t,d,s,o){var l;super(e,t,d,a),this.team=o,this.pkd=Pkd[a],this.scale.set(3),this.anchor.set(.5,.75),this.smoothed=!1,this.animations.add(\"walk-0\",[0,1],8,!0),this.animations.add(\"walk-1\",[6,7],8,!0),this.animations.add(\"walk-2\",[2,3],8,!0),this.animations.add(\"walk-3\",[4,5],8,!0),this.game.physics.arcade.enableBody(this),l=this.width/this.scale.x/4,this.body.setCircle(l,l,2*l),this.body.collideWorldBounds=!0,this.body.allowGravity=!1,this.body.mass=1+this.pkd.weight/1e3,this.setD(s),this.body.onMoveComplete.add(()=>{this.randomWalk()}),this.body.onWorldBounds=new Phaser.Signal,this.body.onWorldBounds.add(()=>{this.body.stopMovement()}),this.body.onCollide=new Phaser.Signal,this.body.onCollide.add(e=>{this.team===e.team?this.collideAlly(e):this.collideEnemy(e)})}setD(e){var a;null!=e&&(e=modulo(e,4),a=this.constructor.dMap[e],this.frame=a.frame,this.body.angle=a.angle,this.d=e)}walk(e,a){this.setD(a),this.constructor.dMap[this.d],this.animations.play(`walk-${this.d}`),this.body.moveTo(500*e/this.pkd.stats.spe,e)}randomWalk(){this.body.isMoving||this.walk(this.game.math.between(10,300),this.game.math.between(0,3))}collideAlly(e){this.body.stopMovement()}collideEnemy(e){}update(){}}return e.dMap=[{frame:0,angle:-Math.PI/2,delta:{x:0,y:-1}},{frame:6,angle:0,delta:{x:1,y:0}},{frame:2,angle:Math.PI/2,delta:{x:0,y:1}},{frame:4,angle:Math.PI,delta:{x:-1,y:0}}],e}.call(this);",
+			"clickStart",
+			"Menu",
+			"vmMenu",
+			"menu",
+			"menuState",
+			"mixColor",
+			"hexToRgba",
+			"mixColor",
+			"hexToRgba",
+			"g",
+			"Pkm",
+			"yes",
+			"onInputUp",
+			"hidden",
 			".",
 			"teams",
 			"make",
@@ -1263,33 +1281,7 @@
 			"var",
 			"var ",
 			"var",
-			"sprite",
-			"bounds",
-			"100",
-			"dragonite",
-			"hippowdon",
-			"lucario",
-			"mewtwo",
-			"randomWalk",
-			"dialga",
-			"palkia",
-			"2, y",
-			"2,",
-			"2",
-			"fkd",
-			"100",
-			"@constructor.dMap[@d]",
-			"deltaX",
-			":",
-			"dMapFrame",
-			"width",
-			"height",
-			"centerY",
-			"centerX",
-			"largeSprite",
-			"Palkia",
-			"Cherrim",
-			"Ho-Oh"
+			"sprite"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1313,7 +1305,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -1322,15 +1314,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1610,
+						"buffer_size": 1561,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								360,
-								360
+								580,
+								580
 							]
 						],
 						"settings":
@@ -1339,69 +1331,45 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 149.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "scripts/menu.coffee",
+					"file": "scripts/load.coffee",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1299,
+						"buffer_size": 312,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1299,
-								1299
+								312,
+								312
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/User/Syntax/coffee.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/User/Syntax/coffee.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 540.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "scripts/play.coffee",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 163,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								163,
-								163
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/User/Syntax/coffee.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
+					"file": "tmp/28884.png",
+					"semi_transient": true,
+					"stack_index": 0,
+					"type": "image"
 				}
 			]
 		}

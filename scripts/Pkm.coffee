@@ -3,15 +3,16 @@ class Pkm extends Phaser.Sprite
 		super game, x, y, pkdName
 
 		@pkd = Pkd[pkdName]
+		@target = []
 
 		@scale.set 3
 		@anchor.set .5, .75
 		@smoothed = no
 
-		@animations.add "walk-0", [0, 1], 8, yes
-		@animations.add "walk-1", [6, 7], 8, yes
+		@animations.add "walk-1", [0, 1], 8, yes
 		@animations.add "walk-2", [2, 3], 8, yes
 		@animations.add "walk-3", [4, 5], 8, yes
+		@animations.add "walk-4", [6, 7], 8, yes
 
 		@game.physics.arcade.enableBody @
 
@@ -41,26 +42,23 @@ class Pkm extends Phaser.Sprite
 				@collideEnemy pkm
 			return
 
-	setD: (d) ->
-		if d?
-			@d = d %% 4
-			dMap = @constructor.dMap[@d]
+		@grpMove = game.make.group @
 
-			@frame = dMap.frame
-			@body.angle = dMap.angle
+	setD: (d) ->
+		@d = d
+		@frame = (@d - 1) * 2
+		@body.angle = [, Math.PI, 0, -Phaser.Math.HALF_PI, Phaser.Math.HALF_PI][@d]
 		return
 
 	walk: (dist, d) ->
-		@setD d
-		dMap = @constructor.dMap[@d]
-
+		@setD d if d
+		@body.moveTo dist * 500 / @pkd.stats.spe, dist
 		@animations.play "walk-#{@d}"
-		@body.moveTo dist * 5 * 100 / @pkd.stats.spe, dist
 		return
 
 	randomWalk: ->
 		unless @body.isMoving
-			@walk @game.math.between(10, 300), @game.math.between(0, 3)
+			@walk Phaser.Math.between(10, 300), Phaser.Math.between(1, 4)
 		return
 
 	collideAlly: (ally) ->
@@ -68,22 +66,12 @@ class Pkm extends Phaser.Sprite
 		return
 
 	collideEnemy: (enemy) ->
+		@target = enemy
+		@fight()
 		return
 
-	@dMap = [{
-		frame: 0
-		angle: -Math.PI / 2
-		delta: x: 0, y: -1
-	}, {
-		frame: 6
-		angle: 0
-		delta: x: 1, y: 0
-	}, {
-		frame: 2
-		angle: Math.PI / 2
-		delta: x: 0, y: 1
-	}, {
-		frame: 4
-		angle: Math.PI
-		delta: x: -1, y: 0
-	}]
+	fight: ->
+		return
+
+	update: ->
+		return

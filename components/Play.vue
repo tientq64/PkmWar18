@@ -32,9 +32,14 @@
 				backgroundPositionY: "-#{32 * Math.floor i / 10}px"
 
 			clickStart: ->
-				game.state.start "play", no
-				@$destroy()
+				unless isStarted
+					pkms.callAll "randomWalk"
+					window.isStarted = yes
+					@toggle()
 				return
+
+			toggle: ->
+				@$el.hidden = not @$el.hidden
 
 		watch:
 			sel: (val) ->
